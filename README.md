@@ -1,8 +1,8 @@
-# Gleek - Bootstrap 4 管理后台 HTML 模板
+# Bootstrap 4 管理后台 HTML 模板
 
 <div align="center">
-  <img src="gleek/assets/images/logo.png" alt="Gleek Logo" width="200">
-  
+  <img src="admin-template/assets/images/logo.png" alt="Admin Template Logo" width="200">
+
   [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.1.3-7952b3?style=flat-square&logo=bootstrap)](https://getbootstrap.com/)
   [![License](https://img.shields.io/badge/License-ThemeForest-green?style=flat-square)](https://themeforest.net/licenses/terms/regular)
   [![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square)](https://github.com/XUXIKAI886/admin-html)
@@ -11,7 +11,7 @@
 
 ## 📖 项目简介
 
-Gleek 是一个功能强大、响应式的 Bootstrap 4 管理后台 HTML 模板，专为现代 Web 应用程序设计。它提供了 22 种不同行业的仪表板风格，100+ 个插件集成，以及完整的 UI 组件库，是构建专业管理系统的理想选择。
+这是一个功能强大、响应式的 Bootstrap 4 管理后台 HTML 模板，专为现代 Web 应用程序设计。它提供了 22 种不同行业的仪表板风格，100+ 个插件集成，以及完整的 UI 组件库，是构建专业管理系统的理想选择。
 
 ## ✨ 主要特性
 
@@ -80,7 +80,7 @@ htmlyuanma/
 │   ├── index.html         # 文档主页
 │   ├── css/               # 文档样式
 │   └── images/            # 文档图片
-├── gleek/                 # 主要模板文件
+├── admin-template/        # 主要模板文件
 │   ├── assets/            # 静态资源
 │   │   ├── images/        # 图片资源
 │   │   └── plugins/       # 第三方插件
@@ -121,7 +121,7 @@ htmlyuanma/
 ## 🔧 自定义配置
 
 ### 主题配置
-在 `gleek/main/js/gleek.js` 中配置主题选项：
+在 `admin-template/main/js/settings.js` 中配置主题选项：
 
 ```javascript
 new quixSettings({
@@ -144,7 +144,7 @@ new quixSettings({
 npm run sass
 
 # 或使用 node-sass 直接编译
-node-sass --watch gleek/main/scss/main.scss gleek/main/css/style.css
+node-sass --watch admin-template/main/scss/main.scss admin-template/main/css/style.css
 ```
 
 ## 📚 组件文档
@@ -328,7 +328,7 @@ var myChart = new Chart(ctx, {
 ## ❓ 常见问题
 
 ### Q: 如何更改默认主题颜色？
-A: 在 `gleek/main/js/gleek.js` 文件中修改 `navheaderBg`、`headerBg`、`sidebarBg` 参数。
+A: 在 `admin-template/main/js/settings.js` 文件中修改 `navheaderBg`、`headerBg`、`sidebarBg` 参数。
 
 ### Q: 如何添加新的页面？
 A: 复制 `template/layout-starter-kit.html` 作为模板，然后根据需要修改内容。
@@ -337,11 +337,11 @@ A: 复制 `template/layout-starter-kit.html` 作为模板，然后根据需要�
 A: 是的，在配置中设置 `direction: "rtl"` 即可启用 RTL 支持。
 
 ### Q: 如何自定义 SASS 变量？
-A: 在 `gleek/main/scss/abstracts/_variables.scss` 中修改相关变量。
+A: 在 `admin-template/main/scss/abstracts/_variables.scss` 中修改相关变量。
 
 ---
 
 <div align="center">
   <p>如果这个项目对您有帮助，请给我们一个 ⭐ Star！</p>
-  <p>© 2024 Gleek Admin Template. All rights reserved.</p>
+  <p>© 2024 Bootstrap Admin Template. All rights reserved.</p>
 </div>
